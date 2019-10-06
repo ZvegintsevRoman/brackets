@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
   
-  couples = bracketsConfig.map(item => item.join(''));
+  let couples = bracketsConfig.map(item => item.join(''));
   let before = 1;
   let after = 0; 
   
